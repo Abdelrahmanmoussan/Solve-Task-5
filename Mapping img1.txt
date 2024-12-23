@@ -3,5 +3,5 @@
 Album ( id PK, Date, Title)
 Song ( Title PK, Author)
 Musician ( id PK, Name, Phone, Address, ST, City)
-Instrument ( Name PK, Key, Musician ID FR)
-Album_Song ( Album Id PK, Song Id PK, Song title FR, Album Id FR  )
+Instrument ( Name PK, Key, Musician ID FK)
+Album_Song ( Album Id PK, Song Id PK, Song title FK, Album Id FK)
