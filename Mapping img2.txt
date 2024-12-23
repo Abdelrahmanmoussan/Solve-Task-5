@@ -1,0 +1,5 @@
+Sales office ( Num PR, Loc, Id Employee FK)
+Employee ( Id PK, Name, Sales Office Num FK)
+Property ( Id PK, Loc, Add, City, State, Zip, Sales Office Num FK)
+Owner ( Id PK, Name)
+Onwer_Property ( Owner Id PK, Property Id PK ,Owner Id FK, Property Id FK, Precent owned )

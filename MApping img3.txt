@@ -1,0 +1,7 @@
+Consultant (Id PK, Name, Patient Id FK)
+Patient (Id PK, Name, DOB, Id Ward FK)
+Ward (Id PK, Name)
+Nurse (Id PK, Name, Ward Id FK)
+Drug (Code PK, Brand, Rec Dosage)
+Drug_Give (Code PK, Nurse Id FK, Patient Id FK, Date, Time, Dosage, )
+ 
